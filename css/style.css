@@ -15,10 +15,10 @@ html {
     scroll-snap-type: y mandatory;
 }
 
-.services, .mainNav, .form{
+/* .services, .mainNav, .form{
     scroll-snap-align: center;
     scroll-snap-stop: always ;
-}
+} */
 
 *, *:before, *:after {
     box-sizing: inherit;
@@ -152,6 +152,7 @@ h1, h2, h3 {
     background-image: url(../img/hero.jpg) ;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     height: 450px;
     /* padding: 20px; */
     position: relative;
